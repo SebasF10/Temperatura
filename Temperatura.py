@@ -4,7 +4,7 @@
 C = int(input("digite los grados celcius que se quieren convertir a kelvin y fahrenheit"))
 
 # prosesing
-F = (C + (9/5)) + 32
+F = (C * (9/5)) + 32
 K = C + 273.15
 
 # output
